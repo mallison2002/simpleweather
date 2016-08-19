@@ -87,13 +87,6 @@
 
 <pluginRepositories>
   
- <!-- 
- <pluginRepository>
-      <id>protex</id>
-      <name>Black Duck Protex Plugins</name>
-      <url>https://protexeval.blackducksoftware.com/repo/maven2</url>
-    </pluginRepository>
--->
     
   </pluginRepositories>
 
@@ -147,17 +140,6 @@
         </executions>
       </plugin>
 	  
-   <!-- 
-     <plugin>
-        <groupId>com.blackducksoftware.plugins</groupId>
-        <artifactId>protex-maven-plugin</artifactId>
-        <version>1.0</version>
-        <configuration>
-          <username>mallison@blackducksoftware.com</username>
-          <password>valis81</password>
-        </configuration>
-      </plugin>
--->
 
       <!-- The maven-site-plugin:3.0 will fail with a LinkageError -->
       <!-- http://jira.codehaus.org/browse/MSITE-627 -->
